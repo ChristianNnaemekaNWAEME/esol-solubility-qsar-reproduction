@@ -1,0 +1,32 @@
+{
+  "A_published_equation_RDKit_descriptors": {
+    "n": 1128,
+    "R2": 0.7247613093988003,
+    "RMSE": 1.0993724206558086
+  },
+  "A_published_equation_as_in_dataset_file": {
+    "R2": 0.8113621507764678,
+    "RMSE": 0.9101322725549837
+  },
+  "A_corr_between_RDKit_and_file_predictions": 0.9648315870586153,
+  "A_refit_4term": {
+    "intercept": 0.280977153263378,
+    "coef_logP_MW_RB_AP": [
+      -0.775687983000031,
+      -0.005771171612417355,
+      -0.014255432181367248,
+      -0.5611228864349822
+    ],
+    "published": {
+      "intercept": 0.16,
+      "coef": [
+        -0.63,
+        -0.0062,
+        0.066,
+        -0.74
+      ]
+    },
+    "test_R2": 0.7704144607375952,
+    "test_RMSE": 1.2189871500178524
+  }
+}

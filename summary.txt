@@ -1,0 +1,18 @@
+RMSE (mean of 5 scaffold splits), columns = share of training labels replaced by gross outliers
+contamination            0.00   0.05   0.10   0.20
+model                                             
+Delaney 4-term (refit)  1.105  1.112  1.145  1.136
+LASSO                   0.845  0.912  0.992  1.043
+Random Forest           0.885  0.933  0.997  1.105
+SLTS+LASSO (keep 75%)   0.877  0.882  0.875  0.880
+SLTS+LASSO (keep 90%)   0.860  0.870  0.867  1.356
+
+R2 (mean of 5 scaffold splits), columns = share of training labels replaced by gross outliers
+contamination            0.00   0.05   0.10   0.20
+model                                             
+Delaney 4-term (refit)  0.753  0.750  0.732  0.736
+LASSO                   0.856  0.832  0.802  0.781
+Random Forest           0.844  0.827  0.803  0.758
+SLTS+LASSO (keep 75%)   0.847  0.845  0.846  0.843
+SLTS+LASSO (keep 90%)   0.851  0.847  0.848  0.619
+
